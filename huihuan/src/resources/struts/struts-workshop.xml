@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	<package name="workshop" extends="ptrd-default">
+	
+
+		<action name="workShopAction_*" class="workShopAction" method="{1}">
+		</action>
+		
+		<action name="operationRoomAction_*" class="operationRoomAction" method="{1}">
+		</action>
+		
+		<action name="assemblyLinesAction_*" class="assemblyLinesAction" method="{1}">
+		</action>
+		
+	</package>
+
+</struts>

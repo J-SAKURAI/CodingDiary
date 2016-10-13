@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+
+    <package name="management" extends="ptrd-default">
+		
+		<action name="activityOperationAction_*" class="activityOperationAction" method="{1}">
+		</action>
+		
+		<action name="leaderOperationAction_*" class="leaderOperationAction" method="{1}">
+		</action>
+		<action name="rewardOperationAction_*" class="rewardOperationAction" method="{1}">
+		</action>
+		<action name="carOperationAction_*" class="carOperationAction" method="{1}">
+		</action>
+		<action name="peasantOperationAction_*" class="peasantOperationAction" method="{1}">
+		</action>
+		<action name="equipmentOperationAction_*" class="equipmentOperationAction" method="{1}">
+		</action>
+		<action name="schoolOperationAction_*" class="schoolOperationAction" method="{1}">
+		</action>
+		<action name="bannerOperationAction_*" class="bannerOperationAction" method="{1}">
+		</action>
+		<action name="userOperationAction_*" class="userOperationAction" method="{1}">
+		</action>
+		<action name="goodOperationAction_*" class="goodOperationAction" method="{1}">
+		</action>
+		
+	</package>
+</struts>

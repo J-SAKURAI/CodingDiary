@@ -1,0 +1,3797 @@
+html {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    height: 100%;
+}
+html * {
+    -webkit-text-size-adjust: 100%;
+    max-height: 99999px;
+}
+body {
+    font-family: Arial, 'Microsoft YaHei';
+    margin: 0;
+    padding: 0;
+    background-color: #F0F2F5;
+    height: 100%;
+}
+.bottom-nav-bar ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: inline;
+}
+/*ol, ul, li {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: inline;
+}*/
+a:hover, a:visited {
+    text-decoration:none;
+}
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder { 
+    color:    #ccc;
+    font-family: Arial, 'Microsoft YaHei';
+}
+input:-moz-placeholder, textarea:-moz-placeholder { 
+    color:    #ccc;
+    font-family: Arial, 'Microsoft YaHei';
+}
+input::-moz-placeholder, textarea::-moz-placeholder { 
+    color:    #ccc;
+    font-family: Arial, 'Microsoft YaHei';
+}
+input:-ms-input-placeholder, textarea:-ms-input-placeholder { 
+    color:    #ccc;
+    font-family: Arial, 'Microsoft YaHei';
+}
+#main-container {
+    width: 750px;
+    margin: 0 auto;
+    overflow: auto;
+    height: 100%;
+    /*background-color: #fff;*/
+}
+.block-container {
+	padding: 0px;
+    background-color: #fff;
+    margin-top: 20px;
+    font-size: 24px;
+}
+.block-item {
+    position: relative;
+    border-top: 1px solid #F0F2F5;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.block-footer {
+    border-top: 1px solid #c6c8cc;
+    font-size: 20px;
+    margin-top: 20px;
+    padding-top: 20px;
+    color: #999;
+}
+
+.block-item .from-input {
+    position: absolute;
+    left: 170px;
+    margin-top: 6px;
+    vertical-align: middle;
+    height: 30px;
+    font-size: 24px;
+    border: 0;
+    outline: 0;
+}
+.weui_actionsheet {
+    z-index: 11;
+}
+.block-item .weui_icon_checked:before  {
+    font-size: 40px;
+}
+
+.inner-padding {
+    padding: 30px;
+}
+.swiper-container.min-height {
+    height: 240px;
+}
+.swiper-container.destination-swiper, .swiper-container.cool-swiper {
+    width: 750px;
+}
+.follow-whw {
+    background-image: url(../img/icon/follow-whw.png);
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    top: 210px;
+    z-index: 999;
+    margin-left: 620px;
+}
+.inline-block {
+    display: inline-block;
+}
+.relative {
+    position: relative;
+}
+.absolute {
+    position: absolute;
+}
+.left {
+    float:left;
+}
+.right {
+    float: right;
+    color: #F08080;
+}
+.pointer {
+    cursor: pointer;
+}
+.clear {
+    clear: both;
+}
+.font-size-20 {
+    font-size: 20px;
+}
+.font-size-24 {
+    font-size: 24px;
+}
+.font-size-32 {
+    font-size: 32px;
+}
+.font-size-40 {
+    font-size: 40px !important;
+}
+.font-size-28 {
+    font-size: 28px;
+}
+
+.font-size-32 {
+    font-size: 32px;
+}
+
+.template {
+    display: none !important;
+}
+.arrow-right-white {
+    background-image: url(/assets/img/icon/arrow-right-white.png);
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 36px;
+}
+.swiper-button-prev-big {
+    background-image: url(/assets/img/icon/arrow-left-big.png);
+    background-repeat: no-repeat;
+    z-index: 11;
+    position: absolute;
+    top: 0;
+    position: absolute;
+    width: 73px;
+    height: 480px;
+    background-position: center;
+}
+.swiper-button-next-big {
+    background-image: url(/assets/img/icon/arrow-right-big.png);
+    background-repeat: no-repeat;
+    z-index: 11;
+    position: absolute;
+    height: 480px;
+    width: 73px;
+    top: 0;
+    right: 0;
+    background-position: center;
+}
+.active-add-icon {
+    background-image: url(/assets/img/icon/add-icon.png);
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+}
+.edit-icon {
+    background-image: url(/assets/img/icon/edit.png);
+    background-repeat: no-repeat;
+    width: 36px;
+    height: 36px;
+}
+.redpacket-bg {
+    background-image: url(/assets/img/icon/redpacket-bg.png);
+    background-repeat: no-repeat;
+    width: 714px;
+    height: 204px;
+}
+
+.redpacket-bg-inactive {
+    background-image: url(/assets/img/icon/redpacket-bg-inactive.png);
+    background-repeat: no-repeat;
+    width: 714px;
+    height: 204px;
+}
+.redpacket-expired {
+    background-image: url(/assets/img/icon/redpacket-expired.png);
+    background-repeat: no-repeat;
+    width: 108px;
+    height: 108px;
+}
+.redpacket-used {
+    background-image: url(/assets/img/icon/redpacket-used.png);
+    background-repeat: no-repeat;
+    width: 108px;
+    height: 108px;
+}
+.redpacket-boundary {
+    background-image: url(/assets/img/icon/boundary.png);
+    background-repeat: no-repeat;
+    width: 1px;
+    height: 127px;
+}
+.sport-left {
+    background-image: url(/assets/img/icon/sport-left.jpg);
+    background-repeat: no-repeat;
+    width: 55px;
+    height: 60px;
+}
+.sport-middle {
+    background-image: url(/assets/img/icon/sport-middle.jpg);
+    height: 60px;
+}
+.sport-right {
+    background-image: url(/assets/img/icon/sport-right.jpg);
+    background-repeat: no-repeat;
+    width: 8px;
+    height: 60px;
+}
+.delete-icon {
+    background-image: url(/assets/img/icon/delete.png);
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 34px;
+}
+.list-icon {
+    background-image: url(../img/icon/icon-list.png);
+    background-repeat: no-repeat;
+    width: 23px;
+    height: 26px;
+}
+.grey-cover {
+    background-image: url(../img/icon/grey-cover.png);
+    background-repeat: no-repeat;
+    width: 750px;
+    height: 380px;
+}
+.grey-dot {
+    background-image: url(../img/icon/ul-bullet.png);
+    background-repeat: no-repeat;
+    width: 8px;
+    height: 8px;
+}
+.dot-icon {
+    background-image: url(../img/icon/dot.png);
+    background-repeat: no-repeat;
+    width: 8px;
+    height: 8px;
+}
+.pointer-down {
+    background-image: url(/assets/img/icon/pointer-down.jpg);
+    background-repeat: no-repeat;
+    width: 96px;
+    height: 13px;
+}
+.right-arrow {
+    background-image: url(../img/icon/arrow-right.png);
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 28px;
+}
+.up-arrow {
+    background-image: url(../img/icon/up-arrow.png);
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 14px;
+}
+.down-arrow {
+    background-image: url(../img/icon/down-arrow.png);
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 14px;
+}
+.outline-icon {
+    background-image: url(../img/icon/outline.png);
+    background-repeat: no-repeat;
+    width: 180px;
+    height: 88px;
+}
+.outline-icon.active {
+    background-image: url(../img/icon/outline-active.png);
+    background-repeat: no-repeat;
+    width: 180px;
+    height: 106px;
+}
+.close-icon {
+    background-image: url(../img/icon/btn_close.png);
+    background-repeat: no-repeat;
+    width: 39px;
+    height: 38px;
+}
+.question-icon {
+    background-image: url(../img/icon/question_flag.png);
+    background-repeat: no-repeat;
+    width: 28px;
+    height: 28px;
+}
+.no-worry {
+    background-image: url(../img/banner/no-worry.png?resize=@180h_335w_1e_1c);
+    background-repeat: no-repeat;
+    width: 335px;
+    height: 180px;
+}
+.for-first-time {
+    background-image: url(../img/banner/for-first-time.png?resize=@180h_335w_1e_1c);
+    background-repeat: no-repeat;
+    width: 335px;
+    height: 180px;
+}
+.half-price {
+    background-image: url(../img/icon/half-price.png);
+    width: 76px;
+    height: 76px;
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+.hot-thumb-1 {
+    background-image: url(../img/hot-des/hot-thumb-1.png);
+    background-repeat: no-repeat;
+    width: 92px;
+    height: 92px;
+}
+.hot-thumb-2 {
+    background-image: url(../img/hot-des/hot-thumb-2.png);
+    background-repeat: no-repeat;
+    width: 92px;
+    height: 92px;
+}
+.hot-thumb-3 {
+    background-image: url(../img/hot-des/hot-thumb-3.png);
+    background-repeat: no-repeat;
+    width: 92px;
+    height: 92px;
+}
+.cool-thumb-1 {
+    background-image: url(../img/hot-des/cool-thumb-1.png);
+    background-repeat: no-repeat;
+    width: 92px;
+    height: 92px;
+}
+.cool-thumb-2 {
+    background-image: url(../img/hot-des/cool-thumb-2.png);
+    background-repeat: no-repeat;
+    width: 92px;
+    height: 92px;
+}
+.cool-thumb-3 {
+    background-image: url(../img/hot-des/cool-thumb-3.png);
+    background-repeat: no-repeat;
+    width: 92px;
+    height: 92px;
+}
+.shoe-icon {
+    background-image: url(../img/icon/shoe.png);
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 22px;
+}
+.location-sh-icon {
+    background-image: url(../img/icon/location-sh.png);
+    background-repeat: no-repeat;
+    width: 90px;
+    height: 58px;
+}
+.loading-icon {
+    background-image: url(../img/icon/loading.gif);
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+}
+.record-icon {
+    background-image:url(../img/icon/record.png);
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 42px;
+}
+.active .record-icon{
+    background-image:url(../img/icon/record-active.png);
+}
+.hiking-icon {
+    background-image:url(../img/icon/hiking.png);
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 42px;
+}
+.active .hiking-icon {
+    background-image:url(../img/icon/hiking-active.png);
+}
+.shopping-cart {
+    background-image: url(../img/icon/cart.png);
+    background-repeat: no-repeat;
+    width: 52px;
+    height: 32px;
+}
+.active .shopping-cart {
+    background-image: url(../img/icon/cart-active.png);
+}
+.store-icon {
+    background-image:url(../img/icon/store.png);
+    background-repeat: no-repeat;
+    width: 134px;
+    height: 53px;
+}
+.active .store-icon{
+    background-image:url(../img/icon/store-active.png);
+}
+.profile-icon {
+    background-image:url(../img/icon/profile.png);
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 38px;
+}
+.menu-bg {
+    background-image: url(../img/icon/menu-bg.png);
+    width: 250px;
+    height: 366px;
+}
+.dialog-left {
+    background-image: url(../img/salepoint-bg/dialog-left.png);
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 64px;
+}
+.dialog-middle {
+    background-image: url(../img/salepoint-bg/dialog-middle.png);
+    height: 64px;
+}
+.dialog-right {
+    background-image: url(../img/salepoint-bg/dialog-right.png);
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 64px;
+}
+.time-icon {
+    background-image: url(../img/icon/time.png);
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+}
+.flag-icon {
+    background-image: url(../img/icon/flag.png);
+    background-repeat: no-repeat;
+    width: 80px;
+    height: 36px;
+}
+.menu-position {
+    position: absolute;
+    top: 90px;
+    right: 24px;
+    z-index: 2;
+    padding: 12px 40px 0 40px;
+}
+.transport-icon {
+    background-image: url(../img/icon/transport-icon.png);
+    background-repeat: no-repeat;
+    width: 22px;
+    height: 24px;
+}
+.accommodation-icon {
+    background-image:url(../img/icon/accommodation-icon.png);
+    background-repeat: no-repeat;
+    width: 22px;
+    height: 24px;
+}
+.other-journey-icon {
+    background-image: url(../img/icon/other-journey-icon.png);
+    background-repeat: no-repeat;
+    width: 22px;
+    height: 22px;
+}
+.walk-icon {
+    background-image:url(../img/icon/hiking-icon.png);
+    background-repeat: no-repeat;
+    width: 22px;
+    height: 20px;
+}
+.meal-icon {
+    background-image:url(../img/icon/meal-icon.png);
+    background-repeat: no-repeat;
+    width: 13px;
+    height: 24px;
+}
+.location-icon {
+    background-image:url(../img/icon/location-icon.png);
+    background-repeat: no-repeat;
+    width: 29px;
+    height: 41px;
+}
+.menu-item {
+    height: 88px;
+    font-size: 28px;
+    color: #fff;
+    line-height: 88px;
+    text-align: center;
+}
+.menu-border {
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+.menu-item a {
+    color: #fff;
+}
+.active .profile-icon{
+    background-image:url(../img/icon/profile-active.png);
+}
+.absolute-center-item {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.layer-close-btn {
+    position: absolute;
+    top: 0px;
+    right: 20px;
+    width: 70px;
+    height: 70px;
+}
+.layer-close-btn img {
+    margin: 20px 0 0 20px;
+}
+.menu-icon {
+    background-image: url(../img/icon/menu.png);
+    width: 44px;
+    height: 33px;
+}
+.head-mask {
+    height: 88px;
+}
+.head-nav {
+    height: 88px;
+    padding: 18px 30px;
+    border-bottom: 1px solid #c6c8cc;
+}
+.head-return-btn {
+    margin-right: 30px;
+    margin-top: 6px;
+}
+.search-icon {
+    background-image: url(../img/icon/search.png);
+    background-repeat: no-repeat;
+    width: 27px;
+    height: 27px;
+}
+.left-icon {
+    background-image: url(../img/icon/icon-left.png);
+    width: 22px;
+    height: 40px;
+    background-repeat: no-repeat;
+}
+.right-icon {
+    background-image: url(../img/icon/icon-right.png);
+    width: 16px;
+    height: 28px;
+    background-repeat: no-repeat;
+}
+.home-icon {
+    background-image: url(../img/icon/home.png);
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+}
+.more-icon {
+    background-image: url(../img/icon/more.png);
+    width: 32px;
+    height: 32px;
+    background-repeat: no-repeat;
+}
+.healthy-theme {
+    background-image: url(../img/theme/healthy.png);
+    background-repeat: no-repeat;
+    width: 92px;
+    height: 32px;
+}
+.play-theme {
+    background-image: url(../img/theme/play.png);
+    background-repeat: no-repeat;
+    width: 92px;
+    height: 32px;
+}
+.sports-theme {
+    background-image: url(../img/theme/sports.png);
+    background-repeat: no-repeat;
+    width: 92px;
+    height: 32px;
+}
+.recommend-head-bg {
+    background-image: url(../img/theme/recommend.png);
+    background-repeat: no-repeat;
+    width: 92px;
+    height: 32px;
+}
+.asc-arrow {
+    background-image: url(../img/icon/asc.png);
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 10px;
+}
+.selected .asc-arrow {
+    background-image: url(../img/icon/asc-selected.png);
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 10px;
+}
+.desc-arrow {
+    background-image: url(../img/icon/desc.png);
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 10px;
+}
+.selected .desc-arrow {
+    background-image: url(../img/icon/desc-selected.png);
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 10px;
+}
+.head-nav-menu {
+    margin-top: 10px;
+    float: right;
+}
+.head-nav-content {
+    width: 540px;
+}
+.head-nav-content.text {
+    height: 52px;
+    line-height: 52px;
+    font-size: 32px;
+    color: #333333;
+    text-align: center;
+}
+.tag {
+    padding: 5px;
+    margin-right: 10px;
+    color: #999999;
+    font-size: 20px;
+    border-radius: 3px;
+    border: 1px solid #999999;
+    display: inline-block;
+    height: 34px;
+    line-height: 20px;
+}
+.red {
+    color: #ff1a1a;
+}
+.green {
+    color: #6CB83B;
+}
+.grey {
+    color: #999;
+}
+
+.grey-999 {
+    color: #999;
+}
+
+.grey-666 {
+    color: #666;
+}
+
+.grey-333 {
+    color: #333;
+}
+
+/* submit block start */
+.submit-block {
+    position: fixed;
+    bottom: 0;
+    line-height: 0;
+    z-index: 1;
+}
+.submit-block .price-info {
+    width: 375px;
+    height: 110px;
+    display: inline-block;
+    height: 110px;
+    line-height: 24px;
+    border-top: 1px solid #ccc;
+    background-color: #fff;
+}
+.submit-block .price-info .actual-price {
+    padding-left: 30px;
+    padding-top: 20px;
+    color: #ff0000; 
+    font-weight: bold;
+}
+.submit-block .price-info .purchase-price-text {
+    font-size: 24px; 
+}
+.submit-block .price-info .purchase-price-value {
+    font-size: 40px; 
+}
+.submit-block .price-info .other-price {
+    padding-left: 30px;
+    padding-top: 15px;
+    font-size: 24px;
+    color: #666666
+}
+.submit-block .price-info .other-price .sales-price {
+    padding-right: 30px;
+}
+.submit-block .submit-button.disabled {
+    background-color: #999999;
+}
+
+.submit-block .submit-button {
+    width: 375px;
+    float: right;
+    text-align: center;
+    height: 110px;
+    line-height: 110px;
+    background-color: #6CB83B;
+    font-size: 40px;
+    color: #fff;
+}
+
+.submit-block .submit-button a {
+    color: #fff;
+}
+
+/* submit block end */
+
+.weui_mask, .weui_mask_transition, .weui_mask_transparent {
+    z-index: 10 !important;
+}
+.pagination-result {
+    height: 120px;
+    line-height: 120px;
+    font-size: 32px;
+    color: #A5A5A5;
+    text-align: center;
+    background-color: #fff;
+}
+.pagination-result .more-icon, .pagination-result .loading-icon {
+    padding-left: 35px;
+}
+/**ios下显示键盘fixed的dom位置移动*/
+.fixfixed .trail-fixed-nav {
+    position: absolute;
+}
+/***/
+/**override weui start **/
+#container label.weui_search_text {
+    margin-bottom: 0px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    line-height: 50px;
+}
+#container .weui_search_bar {
+    padding: 0;
+    height: 50px;
+    background-color: #fff;
+}
+#container .weui_search_inner .weui_search_input {
+    height: 50px;
+    line-height: 50px;
+    font-size: 24px;
+    padding: 0;
+}
+#container .weui_search_outer:after {
+    border: 0;
+}
+#container .weui_search_cancel {
+    line-height: 50px;
+    font-size: 24px;
+}
+#container .weui_search_bar:before {
+    border-top: 0;
+}
+#container .weui_search_bar:after {
+    border-bottom: 0;
+}
+#container .weui_icon_clear:before, #container .weui_icon_search:before {
+    font-size: 26px;
+}
+#container .weui_search_outer {
+    border-radius: 3px;
+    border: 1px solid #c6c8cc;
+}
+#container .weui_search_text span {
+    font-weight: normal;
+    font-size: 26px;
+    height: 26px;
+    line-height: 26px;
+}
+#container .weui_search_inner {
+    padding-left: 50px;
+}
+#container .weui_search_inner .weui_icon_search {
+    line-height: 50px
+}
+#container .weui_search_inner .weui_icon_clear {
+    line-height: 50px;
+}
+/**override weui end **/
+/*首页样式 start*/
+.trip-info {
+    margin: 20px 10px;
+}
+.trip-info-block {
+    background-color: #ff3333;
+    height: 180px;
+    display: block;
+}
+.trip-info-block.item {
+    width: 360px;
+    float: left;
+    margin-top: 10px;
+    display: inline-block;
+}
+.item.half-price {
+    margin-left: 10px;
+}
+.trip-info-center {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+}
+.trip-info-text {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.trip-info-number {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 24px;
+    color: #ffffff;
+}
+.table-style {
+    height: 220px;
+    box-sizing: border-box;
+    padding: 0 5px;
+    display: table;
+    width: 100%;
+}
+.table-cell {
+    display: table-cell;
+    padding: 0 5px;
+}
+.theme-content {
+    position: absolute;
+    color: #ffffff;
+    top: 110px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.theme-name {
+    font-size: 32px;
+    font-weight: bold;
+    height: 32px;
+    line-height: 32px;
+}
+.theme-desc {
+    margin-top: 10px;
+    font-size: 20px;
+}
+.act-customize.table-style {
+    height: 180px;
+    margin-top: 20px;
+}
+.act-customize .table-cell {
+    height: 180px;
+}
+.act-customize-type {
+    vertical-align: middle;
+    text-align: center;
+    background-color: #2aa0d9;
+}
+.act-customize-type {
+    line-height: 180px;
+    color: #ffffff;
+    height: 180px;
+    font-size: 32px;
+    font-weight: bold;
+}
+.bottom-nav-bar {
+    position: fixed;
+    bottom: 0;
+    background-color: #ffffff;
+    border-top: 1px solid #c6c8cc;
+    z-index: 1;
+}
+.bottom-nav {
+    width: 100%;
+    height: 100px;
+    display: inline-block;
+    box-sizing: border-box;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+}
+.mock-bottom-nav {
+    height: 120px;
+}
+.bottom-nav-bar li {
+    width: 187px;
+    height: 100px;
+    box-sizing: border-box;
+    float: left;
+}
+.nav-text {
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    right: 0;
+    font-size: 20px;
+    color: #999;
+    margin-left: auto;
+    margin-right: auto;
+}
+.active .nav-text{
+    color: #6cb83b;
+}
+.bottom-nav-icon {
+    top: 15px;
+}
+.bottom-nav-icon.shopping-cart {
+    top: 20px;
+}
+.theme-list {
+    padding: 40px 46px;
+    background-color: #fff;
+}
+.theme-list .table-cell {
+    font-size: 22px;
+    text-align: center;
+}
+.recommend-trail-swiper img {
+    width: 750px;
+    height: 480px;
+}
+.recommend-trail-swiper .swiper-slide {
+    padding-bottom: 72px;
+}
+.theme-title {
+    font-weight: 600;
+    color: #333;
+    height: 22px;
+    line-height: 22px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.theme-eng-name {
+    color: #999;
+    height: 22px;
+    line-height: 22px;
+    font-size: 16px;
+}
+/*首页样式 end*/
+
+.popupMessage .layui-layer-content {
+    border-radius: 10px;
+    background-color: rgba(0,0,0,.5);
+    text-align: center;
+    color: #fff;
+    padding: 30px 60px;
+    font-size: 32px;
+}
+
+/**红包相关 start**/
+.rp-title {
+    top: 85px;
+}
+.center-parent {
+    position: absolute;
+    left: 50%;
+}
+.center-child {
+    position: relative;
+    left: -50%;
+}
+.rp-phone {
+    position: absolute;
+    top: 160px;
+    bottom: 308px;
+    left: 110px;
+    right: 95px;
+    background: rgba(0, 0, 0, .1);
+}
+.rp-phone input {
+    font-size: 36px;
+    width: 420px;
+    height: 88px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 5px;
+    border: 0;
+    outline: 0;
+    color: #333333;
+    text-align: center;
+    padding: 0 0;
+}
+.get-rp-btn {
+    text-align: center;
+    height: 88px;
+    background-color: #df3413;
+    width: 310px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 32px;
+    font-weight: bold;
+    width: 420px;
+    line-height: 88px;
+    cursor: pointer;
+}
+.rp-bottom {
+    bottom: 80px;
+}
+.rp-result-info {
+    top:30px;
+    font-size: 32px;
+    color: #ce3008;
+}
+.rp-price-info {
+    position: absolute;
+    left: 98px;
+    right: 83px;
+    background: rgba(0, 0, 0, .1);
+    top: 320px;
+    padding: 20px;
+}
+.rp-price-info-inner-bg {
+    background-color: white;
+    position: relative;
+}
+.inner-bg-price {
+    font-size: 66px;
+    color: #ce3008;
+    font-weight: bold;
+    float: left;
+    height: 115px;
+    line-height: 115px;
+    padding: 0 20px;
+    margin-top: 14px;
+}
+.inner-bg-info {
+    float: left;
+    margin-left: 20px;
+}
+.rp-unit {
+    font-size: 24px;
+}
+.inner-bg-text {
+    font-size: 28px;
+    color: #333333;
+    position: absolute;
+    top: 25px;
+}
+.rp-date {
+    font-size: 20px;
+    color: #666666;
+    position: absolute;
+    bottom: 30px;
+}
+.rp-dot {
+    float: left;
+    margin-top: 10px;
+}
+.rp-share {
+    position: absolute;
+    top: 365px;
+    left: 99px;
+    background: rgba(0, 0, 0, .1);
+    padding: 20px;
+    right: 84px;
+}
+.rp-share img {
+    width: 438px;
+}
+.rp-how {
+    position: absolute;
+    top: 628px;
+    left: 130px;
+    padding: 20px;
+}
+.rp-welcome {
+    top: 856px;
+    left: 100px;
+    position: absolute;
+    padding: 20px;
+}
+.already-got {
+    position: absolute;
+    top: 55px;
+    color: #ce3008;
+    font-size: 50px;
+    left: 175px;
+}
+.layer-close-btn {
+    position: absolute;
+    top: 0px;
+    right: 20px;
+    width: 70px;
+    height: 70px;
+}
+.layer-close-btn.rp-small-bg {
+    right: 60px;
+    top: 5px;
+}
+.layer-close-btn  img {
+    margin: 20px 0 0 20px;
+}
+.rp-dot img {
+    height: 100px;
+    margin-top: 15px;
+}
+/**红包相关 end**/
+
+/**路线过滤start**/
+.trail-fixed-nav {
+    position: fixed;
+    z-index: 4;
+    background: #fff;
+    width: 750px;
+    top: 0;
+}
+.trail-items {
+    height: 85px;
+    border: 1px solid #ddd;
+    padding: 0 0;
+}
+.middle-border {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+.trail-items .filter-item {
+    height: 85px;
+    line-height: 85px;
+    text-align: center;
+    color: #666;
+    font-size: 28px;
+    cursor: pointer;
+}
+.filter-item.selected,.filter-list li:hover {
+    color: #79be4b;
+}
+.filter-list li {
+    height: 85px;
+    line-height: 85px;
+    display: block;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+    color: #000;
+    font-size: 28px;
+    cursor: pointer;
+}
+.trail {
+    border-bottom: 1px solid #ddd;
+    padding: 30px;
+}
+.trail-pic {
+    width: 164px;
+    height: 164px;
+}
+.trail-content {
+    position: absolute;
+    left: 214px;
+    right: 30px;
+    top: 30px;
+    bottom: 30px;
+}
+.trail-list {
+    padding-top: 175px;
+}
+.trail-list-page .trail-name {
+    font-size: 28px;
+    color: #333333;
+    height: 28px;
+    line-height: 28px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.trail-list-page .trail-price {
+    font-size: 40px;
+    font-weight: bold;
+}
+.trail-list-page .price-info {
+    font-size: 24px;
+    bottom: 5px;
+    color: #999999;
+    position: absolute;
+    height: 44px;
+    line-height: 44px;
+}
+.trail-list-page .has-gone {
+    font-size: 24px;
+    position: absolute;
+    bottom: 10px;
+    color: #999999;
+    right: 0px;
+    height: 24px;
+    line-height: 24px;
+}
+.trail-tag-template, .trail-template, .activity-template, .sale-point-template, .activity-tag-template {
+    display: none;
+}
+/**路线end**/
+
+/**activity start*/
+.activity .activity-bg{
+    width: 750px;
+    height: 420px;
+}
+.activity .activity-theme {
+    width: 136px;
+    height: 77px;
+    position: absolute;
+    left: 30px;
+}
+.trip-status {
+    position: absolute;
+    top: 20px;
+    font-size: 24px;
+    right: 10px;
+    color: #fff;
+    height: 44px;
+    line-height: 24px;
+    padding: 10px 15px;
+    border-radius: 3px;
+}
+.trip-maybe {
+    background-color: #ffb31a;
+}
+.trip-sure {
+    background-color: #6cb83b;
+}
+.sale-points {
+    position: absolute;
+    bottom: 81px;
+    left: 22px;
+}
+.sale-point {
+    height: 80px;
+}
+.sale-point-text {
+    color: #fff;
+    font-size: 24px;
+    line-height: 64px;
+}
+.activity-time {
+    position: absolute;
+    left: 30px;
+    height: 44px;
+    bottom: 21px;
+    border-radius: 3px;
+}
+.activity .time-info {
+    height: 24px;
+    line-height: 24px;
+    margin: 10px;
+    padding-left: 30px;
+    width: auto;
+    font-size: 24px;
+    color: #fff;
+}
+.activity .price-info {
+    position: absolute;
+    bottom: 20px;
+    right: 0;
+    width: 160px;
+}
+.activity .price-low {
+    height: 58px;
+    line-height: 58px;
+    background-color: #ff1a1a;
+    text-align: center;
+    color: #fff;
+}
+.activity .market-price {
+    height: 40px;
+    background-color: #fff;
+    text-align: center;
+    line-height: 40px;
+    color: #999999;
+    font-size: 20px;
+}
+.activity .activity-info {
+    padding: 24px 30px 44px 30px;
+    position: relative;
+}
+.activity .activity-name {
+    font-size: 28px;
+    height: 28px;
+    line-height: 28px;
+    color: #333333;
+}
+.activity .activity-tags {
+    max-width: 470px;
+}
+.activity .activity-tag {
+    margin-top: 16px;
+    margin-right: 10px;
+    display: inline-block;
+    font-size: 18px;
+    height: 18px;
+    line-height: 18px;
+    padding: 6px;
+    border: 1px solid;
+    box-sizing: content-box;
+    color: #999999;
+}
+.activity .already-go {
+    position: absolute;
+    bottom: 44px;
+    right: 30px;
+    font-size: 24px;
+    color: #999999;
+    height: 24px;
+    line-height: 24px;
+}
+.activity-sort-columns {
+    height: 88px;
+    line-height: 88px;
+    font-size: 28px;
+    color: #666666;
+    display: table;
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+    z-index: 1;
+}
+.activity-sort-columns.isStuck {
+    top: 88px !important;
+}
+.activity-sort-column {
+    display: table-cell;
+}
+.activity-sort-column.selected {
+    color: #77c143;
+}
+.activity-sort-column.trip-date {
+    width: 188px;
+}
+.sort-icon {
+    position: absolute;
+    right: 23px;
+}
+.asc {
+    top: 35px;
+}
+.desc {
+    top: 44px;
+}
+/**activity end*/
+
+/**领队定制start*/
+.apply-captain {
+    position: absolute;
+    width: 600px;
+    height: 200px;
+    bottom: 35px;
+    left: 80px;
+}
+/**领队定制end*/
+/**首页start*/
+.select-location {
+    margin-left: 30px;
+}
+.hot-des-slider-contaier, .cool-slider-contaier {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 30px;
+    margin-top: 14px;
+}
+.slider-title {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    height: 32px;
+    line-height: 32px;
+    padding-top: 40px;
+    margin-bottom: 72px;
+}
+.mid-hot-thumb {
+    margin: 0 58px;
+}
+.hot-des-thumb-container {
+    width: 392px;
+    margin: 0 auto;
+    margin-top: 62px;
+    height: 92px;
+}
+.slide-img-container {
+    padding-bottom: 65px;
+}
+.bigger-pagination .swiper-pagination-bullet {
+    opacity: 1;
+    width: 16px;
+    height: 16px;
+}
+.bigger-pagination .swiper-pagination-white .swiper-pagination-bullet {
+    background: #c8cacc;
+}
+.bigger-pagination .swiper-pagination-white .swiper-pagination-bullet-active {
+    background: #1a1a1a;
+}
+.slide-img-container img {
+    width: 680px;
+    height: 651px;
+}
+.hot-des-1 {
+    background-image: url(../img/hot-des/hot-1.png);
+    background-repeat: no-repeat;
+    width: 702px;
+    height: 675px;
+}
+.hot-des-2 {
+    background-image: url(../img/hot-des/hot-2.png);
+    background-repeat: no-repeat;
+    width: 702px;
+    height: 675px;
+}
+.hot-des-3 {
+    background-image: url(../img/hot-des/hot-3.png);
+    background-repeat: no-repeat;
+    width: 702px;
+    height: 675px;
+}
+.cool-1 {
+    background-image: url(../img/hot-des/cool-1.png);
+    background-repeat: no-repeat;
+    width: 702px;
+    height: 675px;
+}
+.cool-2 {
+    background-image: url(../img/hot-des/cool-2.png);
+    background-repeat: no-repeat;
+    width: 702px;
+    height: 675px;
+}
+.cool-3 {
+    background-image: url(../img/hot-des/cool-3.png);
+    background-repeat: no-repeat;
+    width: 702px;
+    height: 675px;
+}
+.block-container.top-trails {
+    padding: 40px 30px;
+    border-bottom: 1px solid #968787;
+}
+.theme-page .block-container.top-trail-list {
+    margin-top: 20px;
+}
+.block-container.top-trail-list {
+    margin-top: 0;
+    padding: 20px 20px 0 20px;
+}
+.top-trail-list .head-img {
+    width: 710px;
+    height: 240px;
+}
+.top-trail-list .flag-icon {
+    position: absolute;
+    top: 30px;
+    color: #fff;
+    font-size: 20px;
+    padding-left: 5px;
+    line-height: 36px;
+}
+/*.top-trail-list .join-count {
+    position: absolute;
+    padding: 5px 20px;
+    background-color: black;
+    opacity: 0.6;
+    border-radius: 20px;
+    bottom: 30px;
+    left: 20px;
+}
+.join-num {
+    font-size: 24px;
+    color: #fff;
+    height: 22px;
+    line-height: 22px;
+    margin-left: 5px;
+}*/
+.trail-info-container {
+    padding: 30px 30px 20px 30px;
+    border-left: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+.trail-name {
+    font-size: 28px;
+    line-height: 40px;
+    color: #333;
+}
+.trail-price {
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+    top: 11px;
+}
+.top-trail-list .tags {
+    margin-top: 6px;
+}
+.top-trail-list .tag {
+    padding: 5px;
+    margin-right: 10px;
+    color: #77c043;
+    font-size: 20px;
+    border-radius: 3px;
+    border: 1px solid #77c043;
+    display: inline-block;
+    height: 34px;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+.low-price-block .text-position {
+    position: relative;
+    top: 10px;
+}
+.low-price-block {
+    display: inline-block;
+    background: #ff1a1a;
+    color: #fff;
+    border-radius: 5px;
+    height: 60px;
+    padding: 0 24px 0 18px;
+}
+.join-count {
+    position: relative;
+    height: 24px;
+    line-height: 24px;
+    top: 28px;
+}
+.market-price-block {
+    position: relative;
+    height: 24px;
+    line-height: 24px;
+    top: 14px;
+    right: 6px;
+}
+/*.top-trail-list .price-info {
+    position: absolute;
+    right: 0;
+    bottom: 90px;
+}*/
+/*.price-info .low-price {
+    text-align: right;
+    margin-bottom: 16px;
+}
+.price-info {
+    font-size: 24px;
+    height: 24px;
+    line-height: 24px;
+}
+.price-info .trail-price {
+    font-size: 40px;
+    height: 40px;
+    line-height: 40px;
+}
+.price-info .trail-market-price {
+    color: #666666;
+}*/
+.top-trail {
+    padding: 0 0 20px 0;
+}
+.more-trail-btn {
+    width: 690px;
+    background-color: #6CB83B;
+    color: #fff;
+    font-size: 40px;
+    font-family: Arial, 'Microsoft YaHei';
+    border-radius: 10px;
+    cursor: pointer;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.swiper-container.with-preview .swiper-slide {
+    width: 90.7%;
+}
+.swiper-container.head-swiper {
+    height: 200px;
+}
+.swiper-container.head-swiper img {
+    height: 200px;
+    width: 750px;
+}
+.locaiton-forbidden .weui_dialog_title {
+    font-size: 45px;
+    height: 90px;
+    line-height: 90px;
+    font-weight: 200;
+}
+.top-trail-title {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    height: 32px;
+    line-height: 32px;
+}
+/**首页end*/
+/*路线详情start*/
+.no-trailgroup-text {
+    text-align: center;
+    font-size: 28px;
+    height: 28px;
+    line-height: 28px;
+    color: #666;
+}
+.no-trailgroup-text a {
+    color: #77c043;
+    margin-left: 15px;
+    text-decoration: underline;
+}
+.customize-text {
+    font-size: 24px;
+    color: #999;
+    text-align: center;
+}
+.trail-head-img img {
+    width: 750px;
+}
+.block-container.trail-info {
+    margin-top: 0;
+    padding: 30px;
+}
+.trail-info .trail-name {
+    font-size: 32px;
+    height: auto;
+    line-height: 42px;
+    color: #333;
+    margin-top: 0;
+    padding-right: 150px;
+}
+.trail-detail .trail-tags {
+    margin: 16px 0;
+}
+.trail-detail .trail-tag {
+    padding: 10px 15px;
+    color: #77c043;
+    font-size: 20px;
+    border-radius: 2px;
+    border: 1px solid #77c043;
+    display: inline-block;
+    line-height: 20px;
+}
+.totla-text {
+    font-size: 24px;
+    color: #999;
+}
+.totla-text .total-count {
+    color: #77c043;
+}
+.trail-detail .trail-price {
+    position: absolute;
+    right: 30px;
+    top: 55px;
+}
+.trail-detail .low-price {
+    color: #ff1a1a;
+    font-size: 24px;
+    height: 40px;
+    text-align: right;
+    line-height: 40px;
+}
+.trail-detail .low-price-value {
+    font-size: 40px;
+    font-weight: bold;
+}
+.trail-detail .market-price {
+    font-size: 24px;
+    color: #666666;
+    height: 24px;
+    line-height: 24px;
+    margin-top: 16px;
+}
+.discount-customized-info li {
+    display: block;
+    margin-bottom: 12px;
+}
+.discount-customized-info li span:nth-child(1) {
+    font-size: 30px;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 30px;
+    padding: 5px 5px;
+    height: 30px;
+    line-height: 30px;
+}
+.discount-customized-info li span:nth-child(2) {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.discount-customized-info li span:nth-child(3) {
+    font-size: 24px;
+    margin-left: 10px;
+}
+.discount-rule {
+    position: absolute;
+    right: 30px;
+    font-size: 24px;
+    line-height: 28px;
+    width: 135px;
+    background-position: right;
+    top: 35px;
+}
+
+.discount-rule-icon {
+    color: #666666;
+    padding-right: 40px;
+    background: url(../img/icon/question_flag.png) no-repeat right;
+}
+
+.detail-discount {
+    padding: 0 40px;
+    font-size: 24px;
+}
+.detail-discount .discount-head, .dis-detail-alert .discount-head {
+    background: #fe7000;
+    display: inline-block;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 30px;
+    padding: 5px 5px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    box-sizing: content-box;
+}
+.trail-detail .source-customer {
+    border-bottom: 1px solid #ccc;
+}
+/*.trail-detail .detail-discount .alert-discount-detail, .dis-detail-alert .alert-discount-detail {
+    width: auto !important;
+    margin-left: 5px;
+}*/
+.detail-discount .title1 {
+    font-size: 40px;
+    height: 40px;
+    color: #333;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    line-height: 40px;
+}
+.detail-discount .usage {
+    margin-top: 30px;
+    margin-left: 60px;
+}
+.detail-discount .usage-text {
+    color: #333;
+    text-align: center;
+    font-size: 24px;
+    text-align: left;
+    height: 24px;
+    line-height: 24px;
+}
+.detail-discount .usage-context {
+    font-size: 24px;
+    text-align: left;
+    margin-top: 6px;
+    color: #666;
+    line-height: 35px;
+}
+.detail-discount .short-desc{
+    line-height: 40px;
+    font-weight: bold;
+    font-size: 24px;
+    color: #000;
+    margin-left: 60px;
+}
+.detail-discount .belongto{
+    text-align: left;
+    margin-top: 60px;
+    height: 24px;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+.detail-discount .part1 {
+    text-align: left;
+    margin-top: 20px;
+}
+.detail-discount .long-desc{
+    font-weight: normal;
+    color: #666;
+    padding-left: 10px;
+}
+.trail-detail .weui_mask {
+    z-index: 2;
+}
+.discount-rule-alert .close-icon {
+    right: 40px;
+    top: 30px;
+    position: absolute;
+}
+.trail-detail .trail-group-text{
+    font-size: 28px;
+    margin-bottom: 30px;
+    height: 28px;
+    line-height: 28px;
+}
+.trail-detail .trail-group .outline-icon {
+    margin-right: 10px;
+    font-size: 24px;
+    color: #999;
+    text-align: center;
+}
+.trail-detail .trail-group .outline-icon.active {
+    color: #77c043;
+}
+.trail-group-start-date, .trail-group-join-count {
+    height: 24px;
+    line-height: 24px;
+}
+.trail-group-start-date {
+    margin-top: 14px;
+}
+.trail-group-join-count {
+    margin-top: 12px;
+}
+.more-trail-groups {
+    font-size: 24px;
+    color: #999;
+    border: 1px solid #dadce0;
+    float: right;
+    border-radius: 10px;
+    height: 88px;
+    text-align: center;
+    line-height: 44px;
+    padding: 0 35px;
+}
+.more-trail-groups a {
+    color: #999;
+}
+.member-list img{
+    width: 71px;
+    height: 71px;
+    float: left;
+}
+.trail-detail .member-list {
+    margin-top: 12px;
+}
+.member-list .member {
+    margin: 0 10px 10px 0;
+}
+.trail-detail .member-list .member-count {
+    position: absolute;
+    top: 47px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    background-color: #333;
+    opacity: 0.6;
+}
+.trail-detail .trail-detail-title {
+    text-align: center;
+    height: 90px;
+    line-height: 90px;
+    font-size: 28px;
+    color: #666;
+    padding: 0;
+    background-color: #fff;
+    width: 750px;
+    border-bottom: 1px solid #ccc;
+}
+.trail-detail-title div {
+    padding: 0;
+}
+.trail-detail-title div.active {
+    color: #6CB83B;
+    border-bottom: 4px solid #6cb83b;
+}
+.notice-detail-list {
+    height: 88px;
+    line-height: 88px;
+    padding-left: 50px;
+    font-size: 28px;
+    margin-top: 20px;
+    color: #333;
+    background: #fff;
+}
+.expand {
+    display: block;
+    float: right;
+    margin-top: 47px;
+    margin-right: 50px;
+}
+.block-container.trail-detail {
+    background-color: #F0F2F5;
+}
+.detail-text {
+    padding: 20px 50px;
+    border-top: 1px solid #ccc;
+    background: #fff;
+    font-size: 24px;
+}
+
+.trail-detail-content {
+    background-color: #fff;
+    padding: 30px 20px 0px 20px;
+}
+.trail-detail-content.feature {
+    background-color: #fff;
+}
+.trail-detail-content.feature.normal-detail {
+    padding: 30px;
+}
+.trail-detail-content.feature .profile-info, .trail-detail-content.feature .comment {
+    padding: 0 30px;
+}
+.trail-detail-content.feature .avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+}
+.trail-detail-content.feature .nickname {
+    height: 30px;
+    line-height: 30px;
+    font-size: 30px;
+    position: absolute;
+    top: 25px;
+    left: 130px;
+}
+.trail-detail-content ul {
+    list-style-image: url(../img/icon/ul-bullet.png);
+}
+.trail-detail-content .comment {
+    padding-left: 10px;
+    margin-top: 20px;
+}
+.trail-detail-content .comment li {
+    margin-bottom: 20px;
+}
+.trail-detail-content .comment li span {
+    line-height: 35px !important;
+    color: #666666 !important;
+    position: relative;
+    left: 15px;
+    top: 5px;
+    font-size: 24px !important;
+    font-family: Arial, 'Microsoft YaHei' !important;
+}
+.trail-detail-content.book-notice ul, .trail-detail-content.book-notice ul li{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: inline;
+}
+.feature-slider img {
+    width: 750px;
+    height: 420px;
+}
+.feature-list img {
+    width: 750px;
+}
+.feature-list .feature-text {
+    font-size: 24px;
+    color: #666666;
+    margin-top: 20px;
+    line-height: 30px;
+    padding: 0 30px;
+}
+.feature-list .feature {
+    margin-top: 50px;
+}
+.features-alert img {
+    width: 750px;
+    max-height: 100vh;
+}
+.features-alert .weui_mask {
+    background: transparent;
+}
+.features-alert .weui_dialog{
+    background: transparent;
+    width: 750px;
+}
+.feature-booundary {
+    border-top: 1px solid #666;
+    position: absolute;
+    bottom: 100px;
+    left: 30px;
+    right: 30px;
+    z-index: 4;
+}
+.feature-order {
+    color: #fff;
+    font-size: 32px;
+    height: 32px;
+    line-height: 32px;
+    position: absolute;
+    bottom: 40px;
+    left: 30px;
+    right: 30px;
+    text-align: center;
+    z-index: 4;
+}
+.alert-feature-text {
+    color: #fff;
+    font-size: 26px;
+    position: absolute;
+    bottom: 140px;
+    left: 30px;
+    right: 30px;
+    z-index: 4;
+}
+.features-alert .slider-mask {
+    position: fixed;
+    z-index: 10;
+    height: 100%;
+    top: 0;
+    background: rgba(0, 0, 0, 1);
+    width: 750px;
+    left: 50%;
+    margin-left: -375px;
+}
+.features-alert .weui_mask {
+    z-index: 3;
+}
+.features-alert .helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+.features-alert .bottom-cover {
+    position: absolute;
+    bottom: 0;
+    z-index: 3;
+}
+.trail-detail .detail-bottom-btns {
+    position: fixed;
+    bottom: 0;
+    line-height: 0;
+    z-index: 1;
+}
+.mock-detail-bottom-btns {
+    height: 130px;
+}
+.trail-detail .chose-group {
+    width: 449px;
+    float: right;
+    text-align: center;
+    height: 110px;
+    line-height: 110px;
+    background-color: #6CB83B;
+    font-size: 40px;
+    color: #fff;
+}
+.trail-detail .chose-group a {
+    color: #fff;
+}
+.head-slider-order {
+    position: absolute;
+    right: 0;
+    bottom: 20px;
+    font-size: 24px;
+    color: #fff;
+    z-index: 2;
+    left: 650px;
+    text-align: center;
+    background: rgba(0,0,0,0.6);
+}
+.timline-container {
+    background-color: #fff;
+    padding: 30px;
+}
+.timline-container .day-num {
+    font-size: 28px;
+    margin-left: 21px;
+    height: 28px;
+    line-height: 38px;
+    position: relative;
+    top: 5px;
+    display: inline-block;
+    width: 640px;
+}
+.timline-container .part-content {
+    border-left: 1px solid #dadce0;
+    font-size: 24px;
+    color: #666666;
+    padding: 20px 0 50px 35px;
+    margin: 7px 0 0 15px;
+}
+.timeline-day {
+    margin-bottom: 7px;
+}
+.trail-detail .meal .meal-icon {
+    position: relative;
+    left: 9px;
+}
+.trail-detail .meal .part-title, .trail-detail .transport .part-title, .trail-detail .accommodation .part-title, .trail-detail .walk .part-title, .trail-detail .other-journey .part-title {
+    font-size: 26px;
+    margin-left: 50px;
+    height: 26px;
+    line-height: 26px;
+    position: relative;
+    top: -28px;
+    display: inline-block;
+}
+.trail-detail .transport .transport-icon {
+    position: relative;
+    left: 4px;
+}
+.trail-detail .accommodation .accommodation-icon, .trail-detail .walk .walk-icon, .other-journey .other-journey-icon {
+    position: relative;
+    left: 5px;
+}
+.part-template {
+    margin-top: 7px;
+}
+.part-head {
+    height: 24px;
+}
+.part-content .sub-title {
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #edf0f5;
+    font-size: 24px;
+    line-height: 24px;
+}
+.part-content .content-img {
+    width: 290px;
+    height: 168px;
+    margin: 20px 20px 0 0;
+}
+.timline-container .welcome-template {
+    padding-left: 35px;
+    border-left: 1px solid #dadce0;
+    margin-left: 15px;
+    margin-top: -7px;
+    font-size: 24px;
+}
+.timline-container .welcome-template .notice {
+    color: #ffb31a;
+}
+.timline-container .welcome-template .wish {
+    margin-top: 30px;
+    color: #6CB83B;
+}
+.welcome-template .grey-dot {
+    position: relative;
+    left: -40px;
+}
+.trail-detail .trip-detail {
+    background-color: #fff;
+    font-size: 24px;
+    padding: 30px;
+}
+.conclusion-container {
+    border-left: 1px solid #dadce0;
+    margin-left: 15px;
+    position: relative;
+    top: -10px;
+    padding-bottom: 30px;
+}
+.conclusion-text {
+    font-size: 24px;
+    color: #666666;
+    margin-left: 35px;
+    background-color: #edf0f5;
+    padding: 20px;
+}
+.trail-detail .start-places {
+    font-size: 28px;
+    height: 76px;
+    font-weight: bold;
+    color: #333;
+    line-height: 76px;
+    border-bottom: 1px solid #ccc;
+    padding-left: 50px;
+    background-color: #fff;
+    margin-top: 20px;
+}
+.trail-detail .start-place-info {
+    height: 76px;
+    line-height: 76px;
+    font-size: 24px;
+    border-bottom: 1px solid #ccc;
+    background-color: #fff;
+}
+.trail-detail .start-place-info .start-place {
+    margin-left: 50px;
+}
+.trail-detail .start-place-info .start-time {
+    margin-right: 50px;
+}
+.source-customer .avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+}
+.source-customer .nickname {
+    color: #333;
+}
+.source-customer .invite-text {
+    position: absolute;
+    left: 130px;
+    right: 220px;
+    top: 30px;
+    bottom: 30px;
+    font-size: 24px;
+    color: #666666;
+}
+.trail-group-date-info {
+    font-size: 24px;
+}
+.trail-group-date-info .select-more {
+    height: 28px;
+    float: right;
+    position: relative;
+    bottom: 32px;
+}
+.trail-group-date-info .select-more .select-text {
+    height: 24px;
+    font-size: 24px;
+    line-height: 24px;
+    display: inline-block;
+    position: relative;
+    top: -5px;
+    right: 10px;
+    color: #6CB83B
+}
+.group-member-info .total-count {
+    font-size: 28px;
+    height: 28px;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+.discount-rule-alert .weui_dialog {
+    overflow-y: scroll;
+    height: 966px;
+    border-radius: 10px;
+}
+.worry-menus div {
+    height: 88px;
+    line-height: 88px;
+    width: 172px;
+    text-align: center;
+    border: 1px solid #c6c8cc;
+    border-left: 0;
+}
+.worry-menus div.active {
+    background-color: #fff;
+    color: #77c043;
+    border: 0;
+}
+.block-container.worry-container {
+    margin-left: 172px;
+}
+.worry-content{
+    border-bottom: 1px solid #c6c8cc;
+    margin-left: 30px;
+    padding: 40px 0;
+}
+.worry-menus.wrap-nav.stuckMenu.isStuck {
+    top: 183px !important;
+    position: fixed !important;
+}
+.worry-content.skill-worry {
+    border: 0;
+}
+/*路线详情end*/
+/*客服模块 start*/
+.customer-service-online {
+    background-image: url("../img/customer-service/online-index.png");
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+}
+
+.tel-order {
+    background-image: url("../img/customer-service/tel-order.png");
+    background-repeat: no-repeat;
+    width: 28px;
+    height: 28px;
+}
+
+.online-order {
+    background-image: url("../img/customer-service/online-order.png");
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+}
+.customer-service-index {
+    position: fixed;
+    margin-left: 620px;
+    top: 340px;
+    z-index: 999;
+}
+.customer-service-player {
+    position: fixed;
+    margin-left: 620px;
+    bottom: 140px;
+    z-index: 999;
+}
+.customer-service-container {
+    display: inline-block;
+    height: 110px;
+}
+.customer-service-tel {
+    float: left;
+    width: 150px;
+    height: 110px;
+    text-align: center;
+    border-right: 1px solid #dadcc0;
+    font-size: 0;
+}
+.customer-service-chat {
+    float: left;
+    text-align: center;
+    width: 150px;
+    height: 110px;
+    font-size: 0;
+}
+.customer-service-tel .tel-activity {
+    height: 53px;
+    margin: 21px 0 10px 59px;
+}
+.customer-service-text {
+    font-size: 20px;
+    color: #333333;
+}
+.customer-service-activity {
+    background-color: #fff;
+}
+.customer-service-chat .online-activity {
+    margin: 21px 0 10px 53px;
+    height: 53px;
+}
+.customer-service-chat .offline-activity {
+    margin: 21px 0 10px 51px;
+    height: 53px;
+}
+.redirect-to-order-btn {
+    width: 449px;
+    float: right;
+    text-align: center;
+    height: 110px;
+    line-height: 110px;
+    background-color: #6CB83B;
+}
+.redirect-to-order-btn a, .redirect-to-order-btn span {
+    font-size: 40px;
+    color: #fff;
+}
+.bottom-btns {
+    position: fixed;
+    bottom: 0;
+    line-height: 0;
+}
+.tel-order-container {
+    width: 374px;
+    float: left;
+    height: 60px;
+    line-height: 60px;
+    border-right: 1px solid #dadcc0;
+}
+.customer-service-order .customer-service-text {
+    font-size: 28px;
+    height: 28px;
+    line-height: 28px;
+}
+.tel-order-content {
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+    height: 60px;
+}
+.customer-service-order {
+    background: #fff;
+    padding: 14px 0;
+    border-top: 1px solid #dadcc0;
+}
+.chat-order-container {
+    float: left;
+    width: 375px;
+    height: 60px;
+    line-height: 60px;
+}
+.absolute-middle {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    display: table;
+}
+.tel-order-container .customer-service-text.absolute-middle {
+    left: 38px;
+}
+.chat-order-container .customer-service-text.absolute-middle {
+    left: 45px;
+}
+/*客服模块 end*/
+
+/*选择团期列表start*/
+.trail-group-list-page .weui_cells_checkbox .weui_icon_checked:before {
+    font-size: 32px;
+}
+.trail-group-list-page .weui_cells {
+    font-size: 24px;
+}
+.trail-group-list-page .weui_cell_bd.weui_cell_primary {
+    margin-left: 12px;
+}
+.trail-group-list-page .weui_cell.weui_check_label {
+    height: 84px;
+}
+.trail-group-list-page .prices-info {
+    right: 30px;
+    bottom: 8px;
+}
+.trail-group-list-page .prices-info .children-price {
+    margin-top: 12px;
+}
+.trail-group-list-page .prices-info div, .trail-group-list-page .adult-price {
+    height: 24px;
+    line-height: 24px;
+}
+.trail-group-list-page .adult-price {
+    right: 30px;
+    bottom: 30px;
+}
+.trail-group-list-page .weui_btn.weui_btn_primary.next-to-order {
+    height: 88px;
+    font-size: 32px;
+    line-height: 88px;
+    border-radius: 10px;
+    margin-top: 30px;
+    color: #fff;
+}
+.trail-group-list-page .member-list {
+    padding-left: 40px;
+    margin-bottom: 20px;
+}
+.trail-group-list-page .member-info img {
+    width: 71px;
+    height: 71px;
+}
+.trail-group-list-page .member-info {
+    margin: 0 10px 10px 0;
+}
+.trail-group-list-page .member-amount {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 47px;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.60);
+}
+.trail-group-list-page label.weui_check_label {
+    margin-bottom: 0;
+}
+.trail-group-list-page .inactive * {
+    color: #666;
+}
+.trail-group-list-page .inactive .status-info {
+    color: #666;
+    text-decoration: underline;
+}
+.trail-group-list-page .status-info {
+    color: #6CB83B;
+    text-decoration: underline;
+}
+.trail-group-list-page .weui_check_label.inactive {
+    background-color: #F2F3F7;
+}
+.trail-group-list-page .weui_cell:before {
+    border-top: 1px solid #ccc !important;
+    right: 15px;
+    width: auto;
+}
+.trail-group-list-page .weui_cells {
+    margin-top: 0;
+}
+.trail-group-list-page .select-group-text {
+    height: 24px;
+    line-height: 84px;
+    padding-left: 30px;
+    height: 84px;
+}
+.trail-group-list-page * {
+    font-weight: normal;
+}
+.trail-group-list-page .mock-border {
+    border-top: 1px solid #ccc;
+    margin: 0 15px;
+}
+/*选择团期列表end*/
+
+/* book page start */
+.no-id-hint {
+    padding: 20px 30px;
+    margin-top: 0;
+    border-top: 1px solid #c6c8cc;
+}
+.equipment-container.block-container {
+    margin-top: 0;
+}
+.equipment-detail-alert .weui_dialog {
+    width: 75%;
+}
+.equipment-detail-alert .weui_dialog img {
+    width: 100%;
+}
+.bookpage .equipment-entity .actual-price {
+    text-align: right;
+    min-width: 125px;
+}
+.bookpage .equipmentInfo {
+    width: 415px;
+}
+.bookpage .message-warning {
+    margin-top: 20px;
+}
+.bookpage .addAddMinusChildren {
+    padding-left: 50px;
+}
+.equipment-container .eq-part {
+    margin-top: 0;
+}
+.bookpage .addAddMinusEquipment {
+    padding-left: 50px;
+}
+
+.bookpage .startPlace-text {
+    padding-bottom: 20px;
+}
+
+.bookpage  .weui_cells .block-item {
+     margin-top: 0;
+ }
+
+.bookpage .weui_cells label {
+    margin-bottom: 0;
+}
+
+.bookpage .block-container .weui_cell {
+     padding: 20px 0;
+ }
+
+.bookpage .startEndData {
+    padding-left: 58px;
+}
+
+.bookpage .more-groups {
+    padding-right: 26px;
+    background: url(../img/icon/icon-right.png) no-repeat right;
+}
+
+.bookpage .more-groups:visited,
+.bookpage .more-groups:hover 
+{
+    color: #79be4b;
+}
+.start-palce1-text,
+.start-palce2-text,
+.read-requirement,
+.trailGroupName-text {
+    margin-bottom: 0;
+}
+.read-requirement {
+    font-weight: normal;
+}
+.requirement.weui_cells {
+    background-color: transparent;
+}
+.requirement.weui_cells .weui_cell {
+    padding-left: 30px;
+    border-top: 0;
+}
+.requirement.weui_cells:before, .requirement.weui_cells:after {
+    border: 0;
+}
+.equipment-entity .actual-price {
+    font-size: 32px;
+    height: 32px;
+    line-height: 32px;
+    margin-left: 10px;
+}
+.viewDetailImage, .viewDetailImage:visited, .viewDetailImage:hover {
+    color: #6CB83B;
+}
+.usage-info {
+    font-size: 24px;
+    padding: 0 30px;
+    color: #999999;
+}
+.validate-code-btn {
+    background-color: #6CB83B;
+    color: #fff;
+    font-size: 24px;
+    border-radius: 5px;
+    padding: 14px 26px;
+    float: right;
+    height: 24px;
+    line-height: 24px;
+    box-sizing: content-box;
+}
+.validate-code-btn.disabled {
+    background-color: rgb(204, 204, 204);
+}
+.validate-code-alert .message {
+    font-size: 34px;
+    background-color: #333333;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+.phone-change-confirm .weui_dialog {
+    border-radius: 5px;
+}
+.phone-change-confirm .weui_dialog_hd{
+    padding: 0 !important;
+    height: 32px;
+    line-height: 32px;
+    color: #000;
+    font-size: 32px;
+    margin-top: 50px;
+    margin-bottom: 35px;
+}
+.phone-change-confirm .message{
+    font-size: 28px;
+    color: #666;
+    margin-bottom: 30px;
+    padding: 0 70px;
+}
+.phone-change-confirm a {
+    font-size: 32px;
+    color: #6CB83B !important;
+    height: 32px;
+    line-height: 32px;
+    padding: 0 26px;
+    padding: 26px 0;
+    box-sizing: content-box;
+}
+.show-member-list {
+    float: right;
+    color: #6CB83B;
+}
+.bookpage .forbidden-msg {
+    line-height: 24px;
+    border-top: 1px solid #c6c8cc;
+    background-color: #fff;
+    padding: 30px;
+    font-size: 24px;
+}
+.read-requirement-label {
+    width: 100px;
+    display: inline-block;
+}
+.alread-read-text {
+    display: inline-block;
+    position: relative;
+    bottom: 9px;
+    left: -10px;
+}
+/* book page end */
+
+/*个人主页start*/
+.block-container.profile-block {
+    margin-top: 0;
+}
+.check-redpackets {
+    color: #6ab325;
+    position: absolute;
+    right: 0;
+    top: 55px;
+    font-size: 26px;
+}
+.profile-page .avatar {
+    width: 125px;
+    height: 125px;
+}
+.profile-page .nickname {
+    display: inline-block;
+    font-size: 40px;
+    color: #313133;
+    position: relative;
+    top: 7px;
+	left: 20px;
+}
+.profile-page .logout{
+    float: right;
+    color: #6ab325;
+    font-size: 26px;
+    margin-top: 5px;
+}
+.my-order-text {
+    font-size: 28px;
+    height: 28px;
+    line-height: 28px;
+}
+.order-name {
+    font-size: 32px;
+    line-height: 38px;
+    color: #555;
+}
+.order-type {
+    padding: 5px 20px;
+    border-radius: 3px;
+    border: 1px solid #6ab325;
+    font-size: 20px;
+    color: #6ab325;
+    display: inline-block;
+    margin-top: 12px;
+}
+.order-content {
+    margin-top: 10px;
+    font-size: 24px;
+    color: #999;
+    padding-bottom: 40px;
+    margin-bottom: 0;
+    border-bottom: 1px solid #ccc;
+    line-height: 40px;
+}
+.left {
+    float:left;
+    height: 30px;
+    color: red;
+    font-size: 28px;
+}
+.right {
+    float: right;
+    color: #F08080;
+}
+
+.profile-page a .order-price-status {
+    color: #666;
+}
+
+.profile-page .shareDiv .close-icon {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.profile-page .shareArrows {
+    background: url(/images/share_icon.png) no-repeat !important; 
+    position: absolute; 
+    top: 20px; 
+    right: 30px; 
+    z-index: 19891999; 
+    width: 63px; 
+    height: 83px; 
+    display: none;
+}
+
+.profile-page .shareDiv {
+    background-color: #49bc6a; 
+    width: 670px; 
+    height: auto; 
+    display: none; 
+    border-radius: 2px; 
+    overflow: hidden;
+}
+
+.profile-page .shareDivInner {
+    background-color: #49bc6a; 
+    border-radius: 2px; 
+    width: 670px; 
+    height: auto; 
+}
+
+.profile-page .shareDiv-paySuccess {
+    margin: 50px 0;
+    font-size: 60px;
+    width: 100%; 
+    color: #fff;
+    text-align: center;
+    overflow: hidden;
+}
+
+/*个人主页end*/
+
+/*订单详情start*/
+.block-title {
+    font-size: 28px;
+    height: 88px;
+    line-height: 88px;
+    border-bottom: 1px solid #F0F2F5;
+    padding: 0 30px;
+}
+.equipment-order-detail .amount, .trail-group-order-detail .amount {
+    float: right;
+    text-align: right;
+}
+
+.equipment-order-detail .show-detail, .trail-group-order-detail .show-detail {
+    color: #6cb83b;
+    margin-top: 15px;
+}
+.equipment-detail-alert .close-icon {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+.equipment-order-detail .right-arrow, .trail-group-order-detail .right-arrow {
+    float: right;
+    margin-top: 30px;
+}
+.restore-a {
+    color: #333;
+}
+.equipment-order-detail .status-btns {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.block-title .delete-icon {
+    float: right;
+    margin-top: 27px;
+    outline: 0;
+    border: 0;
+    background-color: transparent;
+    border-color: transparent;
+}
+.bottom-customer-service {
+    position: fixed;
+    bottom: 0;
+}
+.mock-bottom-customer-service {
+    height: 110px;
+}
+.btn-container {
+    border-top: 1px solid #F0F2F5;
+}
+.pay-btn {
+    float: right;
+    color: #ff1a1a;
+    height: 54px;
+    line-height: 54px;
+    margin: 20px 30px 20px 0;
+    border: 1px solid #ff1a1a;
+    border-radius: 5px;
+    width: 160px;
+    text-align: center;
+}
+.cancel-btn {
+    float: right;
+    color: #666;
+    height: 54px;
+    line-height: 54px;
+    margin: 20px 30px 20px 0;
+    border: 1px solid #999999;
+    border-radius: 5px;
+    width: 160px;
+    text-align: center;
+    outline: 0;
+    background-color: transparent;
+}
+.weui_dialog_confirm .context.font-size-40 {
+    text-align: center !important;
+    color: #333;
+    line-height: 49px;
+    padding-top: 40px;
+}
+.choose-btns a {
+    height: 101px;
+    font-size: 40px;
+    color: #3cc51f;
+    line-height: 101px;
+}
+.block-title.group-name{
+    color: #6cb83b;
+}
+.group-name-text {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 650px;
+}
+.dis-html span, .discount-icon {
+    color: #fff;
+    border-radius: 3px;
+    font-size: 30px;
+    padding: 5px 5px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    box-sizing: content-box;
+}
+.dis-detail .question-icon {
+    display: inline-block;
+    position: relative;
+    top: 7px;
+    left: 10px;
+}
+.dis-detail-alert .weui_dialog_bd {
+    width: 640px;
+    padding: 0 40px;
+}
+.dis-detail-alert .close-icon {
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+/*订单详情end*/
+
+/* 订单支付 start */
+.online-pay .pay-type-icon{
+    float: left;
+    padding-right: 20px;
+}
+
+.online-pay .pay-type {
+    line-height: 68px;
+    font-size: 32px;
+}
+
+.online-pay .pay-type-right {
+    margin-top: 20px;
+    float: right;
+}
+.trailGroupOutSideName {
+    width: 555px;
+    padding-left: 5px;
+}
+/* 订单支付 end */
+
+/*红包 start*/
+.redpacek-list {
+    margin-left: 18px;
+}
+.redpacek-item {
+    position: relative;
+    margin-bottom: 26px;
+}
+.redpacek-item .redpacket-expired, .redpacek-item .redpacket-used {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+}
+.redpacek-item .redpacket-boundary {
+    position: absolute;
+    left: 180px;
+    top: 48px;
+}
+.redpacket-value-display {
+    display: inline-block;
+    position: relative;
+    top: 38px;
+    left: 30px;
+}
+.redpacket-unit {
+    color: #ff1a1a;
+    font-size: 30px;
+}
+.redpacket-value {
+    color: #ff1a1a;
+    font-size: 80px;
+}
+.redpacket-info {
+    position: absolute;
+    top: 57px;
+    left: 210px;
+}
+.redpacket-name {
+    font-size: 32px;
+    font-weight: 600;
+}
+.redpacket-date {
+    font-size: 24px;
+    color: #999;
+}
+.redpacek-item.redpacket-bg-inactive * {
+    color: #999;
+}
+.redpacket-detail.question-icon {
+    width: 135px;
+    background-position-x: right;
+    font-size: 24px;
+    color: #999;
+    line-height: 28px;
+    margin: 20px;
+}
+.no-redpackets {
+    font-size: 28px;
+    text-align: center;
+    color: #666;
+    margin-top: 300px;
+}
+.rp-rule-alert .close-icon {
+    float: right;
+    margin-top: 30px;
+}
+.rp-rule-alert .weui_dialog {
+    border-radius: 10px;
+    width: 640px;
+    padding: 0 40px;
+    height: 966px;
+}
+.rp-rule-alert .title1 {
+    font-size: 40px;
+    height: 40px;
+    line-height: 40px;
+    color: #333;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.rp-rule-alert .title2 {
+    text-align: left;
+    font-size: 28px;
+    height: 28px;
+    line-height: 28px;
+    color: #333;
+    margin-bottom: 30px;
+}
+.rp-rule-alert .title3 {
+    text-align: left;
+    font-size: 24px;
+    height: 24px;
+    line-height: 24px;
+}
+.rp-rule-alert .title4 {
+    font-size: 24px;
+    text-align: left;
+    margin-top: 60px;
+}
+.rp-rule-alert .rp-rule {
+    text-align: left;
+    font-size: 24px;
+    height: 24px;
+    line-height: 24px;
+    margin-top: 16px;
+    color: #666;
+}
+/*红包 end*/
+
+/* 装备列表页 start */
+.block-container.sport-list {
+    margin-top: 0;
+    padding: 0 20px 40px 20px;
+}
+.equipment-worry-container {
+    background-color: #fff;
+    padding: 40px 0;
+    margin-top: 0;
+    text-align: center;
+}
+.sport-menu.isStuck {
+    border-bottom: 1px solid #ddd;
+}
+.sport-menu {
+    background-color: #fff;
+    padding: 40px 20px 20px 20px;
+    z-index: 10;
+}
+.sport-menu .table-cell {
+    text-align: center;
+}
+.sport-menu .sport-name {
+    line-height: 22px;
+    color: #1a1a1a;
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.suit-text {
+    font-size: 22px;
+    line-height: 22px;
+    margin-bottom: 6px;
+}
+.sport-menu .pointer-down {
+    margin: 0 auto;
+}
+.suit-list-template img {
+    width: 710px;
+    height: 398px;
+}
+.suit-list-template .suit-name {
+    font-size: 32px;
+    line-height: 32px;
+    color: #333;
+    margin-top: 30px;
+    padding-right: 170px;
+}
+.suit-list-template .tags {
+    margin-top: 16px;
+    margin-bottom: 40px;
+    padding-right: 170px;
+}
+.suit-list-template .tag {
+    border: 1px solid #6CB83B;
+    margin-bottom: 10px;
+}
+.suit-price-info {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.suit-template{
+    border-bottom: 1px solid #ddd;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.suit-template .low-price {
+    text-align: right;
+}
+.suit-template .low-price-value {
+    font-size: 40px;
+    height: 40px;
+    line-height: 40px;
+}
+/*.equipment-list .sport-name {
+    line-height: 60px;
+    color: #fff;
+    padding: 0 26px 0 9px;
+}
+.sport-tag {
+    padding-top: 40px;
+    display: table;
+    margin: 0 auto;
+}
+.equipment-list .equipment-category {
+    background: #fff;
+}
+.equipment-worry-container {
+    background-color: #fff;
+    padding: 40px 0;
+    margin-top: 0;
+    text-align: center;
+}
+.equipment-list .equipment-item {
+    padding-bottom: 30px;
+    width: 690px;
+    border-bottom: 1px solid #c6c8cc;
+}
+
+.equipment-list .equipment-item .recommend {
+    background: red;
+    top: 0;
+    left: 0;
+    color: #fff;
+    font-size: 18px;
+    padding: 2px 4px;
+}
+
+.equipment-list .equipment-item .equip-headimg {
+    width: 160px;
+    height: 160px;
+}
+
+.equipment-list .equipment-item .equipment-name {
+    padding: 5px 0 0 20px;
+    font-size: 26px;
+    color: #333333;
+
+}
+
+.equipment-list .equipment-item .equipment-tag {
+    margin: 12px 0 0 20px;
+    padding: 5px;
+    border: 1px solid #77c043;
+    font-size: 20px;
+    color: #77c043;
+    border-radius: 3px;
+    display: inline-block;
+    height: 32px;
+    line-height: 20px;
+}
+
+ .equipment-list .equipment-item .equipment-detail {
+     width: 510px;
+     height: 160px;
+ }
+
+
+.equipment-list .equipment-item .item-bottom {
+    position: absolute;
+    left: 20px;
+    bottom: 0;
+    width: 490px;
+}
+
+ .equipment-list .equipment-item .have-saled {
+     color: #666;
+     font-size: 24px;
+     display: inline-block;
+     float: left;
+ }
+
+ .equipment-list .equipment-item .price-info {
+     color: #666;
+     height: 32px;
+     line-height: 32px;
+     display: inline-block;
+     float: right;
+ }*/
+
+/* 装备列表页 end */
+
+/* 装备详情页面 start */
+
+.message-warning {
+    width: 100%;
+    background-color: #ff791a;
+    padding: 17px 20px 17px 40px;
+}
+.message-warning span {
+    color: #fff;
+    font-size: 28px;
+    line-height: 45px;
+}
+.equipment-detail-page .eq-detail img {
+    max-width: 690px;
+}
+.equipment-detail-page .equipment-info-detail {
+    margin-top: 0;
+}
+.equipment-detail-page .detail-img img {
+    width: 750px;
+    height: 420px;
+}
+.equipment-detail-page .title-font{
+    font-size: 32px;
+    color: #333;
+}
+.equipment-detail-page .content-font {
+    font-size: 24px;
+    color: #999;
+}
+.equipment-detail-page .price-font {
+    text-align: right;
+    color: #ff3333;
+    font-weight: bold;
+    font-size: 40px;
+    height: 40px;
+    line-height: 40px;
+}
+.eq-market-price {
+    text-align: right;
+    margin-top: 20px;
+}
+.equipment-detail-page .price-unit-font {
+    font-weight: normal;
+    font-size: 24px;
+}
+.equipment-detail-page .price-info {
+    position: absolute;
+    right: 30px;
+    top: 40px;
+}
+.equipment-detail-page .selled-amount {
+    color: #6cb83b;
+}
+.equipment-detail-page .tags {
+    margin-top: 16px;
+    margin-bottom: 40px;
+}
+.equipment-detail-page .block-container-content {
+    margin-top: 20px;
+    border-top: 1px solid #F0F2F5;
+    margin-left: 37px;
+}
+.equipment-detail-page .fixed-btn {
+    position: fixed;
+    bottom: 0;
+    z-index: 9999;
+    padding: 40px 30px;
+    background-color: #fff;
+    border-top: 1px solid #ced0d2;
+}
+
+.equipment-detail-page .escape-fixed-btn {
+    margin-bottom: 200px;
+}
+
+.equipment-detail-page .book-next-customise {
+    width: 690px;
+    padding: 20px 262px;
+    background-color: #6CB83B;
+    color: #fff;
+    font-size: 40px;
+    font-family: Arial, 'Microsoft YaHei';
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.equipment-detail-page .detail-tab.active {
+    color: #6CB83B;
+    border-bottom: 4px solid #6cb83b;
+}
+.equipment-detail-page .detail-tab {
+    text-align: center;
+    line-height: 90px;
+    font-size: 28px;
+    background-color: #fff;
+}
+.detail-tab-container {
+    height: 90px;
+    max-width: 750px;
+}
+/* 装备详情页面 end */
+
+/* 装备下单页面 start */
+.no-trail-hint {
+    border-top: 1px solid #F0F2F5;
+    padding-top: 30px;
+}
+.book-equipment .equipment-template {
+    height: 150px;
+}
+
+.book-equipment .addAddMinusEquipment {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+ .book-equipment .selectOuting {
+     padding-bottom: 20px;
+     font-size: 28px;
+ }
+
+.book-equipment .weui_cells .block-item {
+     margin-top: 0;
+ }
+
+.book-equipment .weui_cells label {
+    margin-bottom: 0;
+}
+
+.book-equipment .block-container .weui_cell {
+     padding: 20px 0;
+ }
+
+.book-equipment .equpmentDetail {
+    width: 400px;
+}
+.delivery-options .weui_actionsheet_cell {
+    font-size: 40px;
+    padding: 20px 0;
+}
+.book-equipment .right-arrow {
+    position: absolute;
+    right: 30px;
+    bottom: 38px;
+}
+.book-equipment .delivery-text {
+    position: absolute;
+    right: 65px;
+    bottom: 31px;
+    font-size: 28px;
+}
+/* 装备下单页面 end */
+
+/*联系人列表页面start*/
+.contact-list-page .info {
+    height: 24px;
+    line-height: 24px;
+}
+.contact-list-page .contact-phone {
+    margin: 20px 0;
+}
+.contact-template .edit-icon {
+    position: absolute;
+    right: 30px;
+    top: 78px;
+}
+.contact-list-page .active-add-icon{
+    display: inline-block;
+    position: relative;
+    top: 3px;
+    margin-right: 20px;
+}
+.save-contact-btn {
+    font-size: 28px;
+    margin: 30px;
+    border-radius: 10px;
+    padding: 5px;
+}
+/*联系人列表页面end*/
+
+/* web app login start */
+
+.webappLogin {
+    position: absolute;
+    text-align: center;
+    background-color: #fff;
+    width: 750px;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+}
+
+
+.webappLogin .popupMessage .layui-layer-content {
+    border-radius: 10px;
+    background-color: rgba(0,0,0,.5);
+    text-align: center;
+    color: #fff;
+    padding: 30px 60px;
+    font-size: 32px;
+}
+
+.webappLogin button {
+    border: 0;
+    outline: 0;
+}
+
+.webappLogin input {
+    margin-top: 5px;
+    height: 70px;
+    font-size: 28px;
+    border: 0;
+    outline: 0;
+    margin-left: 30px;
+}
+
+.webappLogin .loginImage {
+    padding-top: 120px;
+    padding-bottom: 142px;
+}
+
+.webappLogin .login-inputphone {
+    width: 388px;
+    height: 90px;
+    float: left;
+    background-color: #fff;
+    display: inline-block;
+    border: 1px solid #ddd;
+}
+
+.webappLogin .login-inputphone input {
+    float: left;
+    width: 350px;
+}
+
+.webappLogin .login-inputSendcode {
+    width: 240px;
+    height: 90px;
+    line-height: 90px;
+    background-color: #fff;
+    float: left;
+    font-size: 28px;
+    color: #77c143;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.webappLogin .login-inputSendcode.disabled {
+    color: #cccccc;
+}
+
+
+.webappLogin .login-inputValidateCode {
+    width: 630px;
+    height: 90px;
+    font-size: 28px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+.webappLogin .login-inputValidateCode input {
+    float: left;
+    width: 560px;
+}
+
+.webappLogin .login-button {
+    margin-top: 60px;
+    width: 630px;
+    height: 88px;
+    border-radius: 5px;
+    background-color: #77c143;
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    display: block;
+    line-height: 88px;
+}
+/* web app login end */
+
+/**主题页start*/
+.theme-page .theme-desc{
+    text-align: center;
+}
+.theme-page .head-img img {
+    width: 750px;
+    height: 280px;
+}
+.theme-trail-join-count {
+    position: absolute;
+    padding: 5px 20px;
+    background-color: black;
+    opacity: 0.6;
+    border-radius: 20px;
+    bottom: 30px;
+    color: #fff;
+    right: 20px;
+    font-size: 24px;
+}
+.theme-price-info {
+    position: absolute;
+    left: 30px;
+    bottom: 20px;
+    color: #fff;
+    width: 168px;
+    text-align: center;
+}
+.theme-recommend {
+    position: relative;
+    left: 10px;
+    top: -2px;
+}
+.theme-trail-act-price {
+    background-color: #ff3333;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.theme-trail-market-price {
+        background-color: #636466;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.theme-recommend-text {
+    color: #666;
+     white-space: pre-wrap;
+}
+.theme-trail-template {
+    margin-top: 20px;
+}
+.theme-trail-content {
+    margin-top: 0;
+}
+.text-desc-img {
+    width: 750px;
+}
+/**主题页end*/
+/*企业定制start*/
+.enterprise-customize .customize-info-label {
+    border: 0;
+    width: 50%;
+    margin-top: 0;
+    padding-left: 0;
+}
+.enterprise-customize .weui_cell:before , .enterprise-customize .weui_cell:after, .enterprise-customize .weui_cells:before, .enterprise-customize .weui_cells:after {
+    border: 0;
+}
+.enterprise-customize .submit-info-btn {
+    font-size: 36px;
+    border-radius: 10px;
+    margin: 20px 30px;
+}
+.enterprise-customize .info-title {
+    background-color: #fff;
+    border-bottom: 1px solid #F0F2F5;
+    margin-top: 20px;
+    padding-left: 20px;
+    margin-bottom: -20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.enterprise-customize .info-content {
+    padding-top: 5px;
+}
+.info-content .name-item {
+    border-top: 0;
+    margin-top: 0;
+}
+.enterprise-customize .confirm-info-submit {
+    height: 88px;
+    line-height: 88px;
+}
+.enterprise-customize .weui_dialog {
+    border-radius: 10px;
+}
+.enterprise-customize .weui_dialog_title {
+    padding: 0;
+    height: 32px;
+    line-height: 32px;
+    margin: 50px 0 34px 0;
+}
+/*企业定制end*/
+/*无忧start*/
+.worry-detail-list img {
+    width: 750px;
+}
+.worry-items img {
+    width: 707px;
+}
+.worry-items {
+    background-color: #F0F1F4;
+    padding: 26px 0 32px 21px;
+}
+/*无忧end*/
+/*企业业务start*/
+.btn-bg {
+    margin-top: 2px;
+    font-size: 0;
+}
+.enterprise-btn {
+    width: 374px;
+    height: 70px;
+    border-bottom: 4px solid #427301;
+    background-color: #65a322;
+    color: #fff;
+    font-size: 26px;
+    text-align: center;
+    line-height: 70px;
+    display: inline-block;
+    position: relative;
+}
+.phone-btn {
+    margin-left: 2px;
+}
+.enterprise-btn .arrow-right-white {
+    position: absolute;
+    top: 17px;
+    right: 36px;
+}
+.title-container {
+    margin-top: 20px;
+}
+.img-width-limit {
+    width: 750px;
+}
+.img-width-limit-690 {
+    width: 690px;
+}
+.intro-block {
+    padding: 40px 30px 50px 30px;
+    background-color: #cfe8f3;
+}
+.start-flag {
+    width: 6px;
+    height: 32px;
+    background-color: #0090cc;
+    position: absolute;
+    left: 0;
+}
+.title-text {
+    font-size: 28px;
+    height: 28px;
+    line-height: 28px;
+    color: #0090cc;
+    font-weight: 600;
+}
+.content-text {
+    font-size: 20px;
+    line-height: 32px;
+    margin-top: 16px;
+    color: #666;
+}
+.boudary {
+    height: 20px;
+}
+.vertical-boudary {
+    width: 30px;
+}
+.case-content {
+    border-top: 1px solid #C6C8CC;
+    margin-top: 30px;
+    padding-top: 20px;
+    position: relative;
+}
+.case-pic-container img {
+    width: 410px;
+    height: 354px;
+}
+.content-detail {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    left: 430px;
+}
+.content-title {
+    font-size: 24px;
+    height: 24px;
+    line-height: 24px;
+}
+.content-logo img {
+    width: 200px;
+    height: 140px;
+}
+.case-text {
+    font-size: 20px;
+    color: #666;
+    line-height: 30px;
+}
+.prove-avatar img {
+    width: 200px;
+    height: 200px;
+}
+.prove-content {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    left: 220px;
+    bottom: 18px;
+}
+.prover {
+    text-align: right;
+    font-size: 20px;
+    color: #666;
+    height: 24px;
+    line-height: 24px;
+}
+.prover-name {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+}
+.prove-intro {
+    text-align: right;
+    font-size: 20px;
+    color: #666;
+    height: 20px;
+    line-height: 20px;
+    margin-top: 8px;
+}
+.start-flag-large {
+    width: 6px;
+    height: 50px;
+    background-color: #0090cc;
+    position: absolute;
+    top: 2px;
+}
+.prove-block {
+    position: relative;
+    background-color: #fff;
+}
+.on-right .start-flag-large {
+    right: -30px;
+}
+.on-left .start-flag-large {
+    left: -30px;
+}
+.prove-text {
+    border-top: 1px solid #C6C8CC;
+    font-size: 20px;
+    color: #666;
+    padding-top: 12px;
+    margin-top: 12px;
+    line-height: 28px
+}
+.on-left .prove-content {
+    left: 30px;
+    right: 220px;
+}
+.on-left .prover, .on-left .prove-intro {
+    text-align: left;
+}
+.enterprise-logo-list img {
+    width: 150px;
+    height: 150px;
+}
+.enterprise-logo-list {
+    font-size: 0;
+}
+.logo-list-container img {
+    width: 692px;
+    height: 550px;
+}
+/*企业业务end*/
