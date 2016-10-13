@@ -25,6 +25,4 @@
 	<import resource="applicationContext-action-tool.xml" />
 	<import resource="applicationContext-action-workShop.xml" />
 	<import resource="applicationContext-action-buyManagement.xml" />
-	<import resource="applicationContext-action-activities.xml" />
-	<import resource="applicationContext-action-management.xml" />
 </beans>

@@ -28,6 +28,4 @@
     <include file="resources/struts/struts-tool.xml" />
     <include file="resources/struts/struts-workshop.xml" />
     <include file="resources/struts/struts-buyManagement.xml" />
-    <include file="resources/struts/struts-activities.xml" />
-    <include file="resources/struts/struts-management.xml" />
 </struts>

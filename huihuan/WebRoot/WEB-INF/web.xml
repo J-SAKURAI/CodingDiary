@@ -85,6 +85,7 @@
     <dispatcher>REQUEST</dispatcher>
     <dispatcher>FORWARD</dispatcher>
   </filter-mapping>
+  
   <session-config>
     <session-timeout>30</session-timeout>
   </session-config>
